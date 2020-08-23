@@ -1,7 +1,4 @@
 
-const assertEqual = require('./assertEqual');
-
-
 const head = function(array) {
   if (array === []) {
     return undefined;
@@ -9,3 +6,4 @@ const head = function(array) {
     return array[0];
   }
 };
+module.exports = head;
